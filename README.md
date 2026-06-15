@@ -25,7 +25,7 @@ Transcript
       │
       ▼
 Local Ollama Server
-(Llama 3.2 3B)
+(Llama 3.2 1B)
       │
       ▼
 Generated Response
@@ -42,7 +42,7 @@ Unity Application
 - C#
 - Deepgram API (Speech-to-Text)
 - Ollama
-- Llama 3.2 3B
+- Llama 3.2 1B
 
 ---
 
@@ -66,7 +66,7 @@ ProjectSettings/
 ## Requirements
 
 - Unity
-- Windows (tested)
+- Linux (tested)
 - Microphone
 - Internet connection (for Deepgram)
 - Ollama installed locally
@@ -82,7 +82,7 @@ https://ollama.com/
 Download the language model:
 
 ```bash
-ollama pull llama3.2:3b
+ollama pull llama3.2:1b
 ```
 
 Start the local server:
@@ -124,7 +124,7 @@ ollama serve
 4. Ensure the Llama model has been downloaded:
 
 ```bash
-ollama pull llama3.2:3b
+ollama pull llama3.2:1b
 ```
 
 5. Connect a microphone.
