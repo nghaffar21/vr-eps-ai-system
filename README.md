@@ -152,17 +152,6 @@ ollama pull llama3.2:1b
 
 ---
 
-## Future Work
-
-- Text-to-speech NPC output
-- Facial animation and lip synchronization
-- Integration with Meta Quest 3
-- Teacher-defined evaluation rubrics
-- Automatic assessment of workplace communication skills
-- Multi-turn conversational scenarios
-
----
-
 ## License
 
 This project is released under the MIT License.
